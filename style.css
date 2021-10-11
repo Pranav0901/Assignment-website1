@@ -1,0 +1,210 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  color: black;
+  font-family: 'Architects Daughter', cursive;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+/*homepage*/
+#main{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-family: 'Architects Daughter', cursive;
+  background-color: white;
+}
+button {
+  background-color: #272727; /**/
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.logo img{
+  margin-top: 20px;
+  height: 80px;
+  width: 150px;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none; 
+}
+.menu{
+  display: flex;
+  text-decoration: none;
+}
+.menu li a{
+  height: 40px;
+  line-height: 43px;
+  border-radius: 10%;
+  margin: 3px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #4e4e4b;
+}
+li a:hover{
+  background-color: #aea6a0;
+}
+
+
+#sub{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.chibi img{
+  margin-top: 125px;
+  width: 100%; 
+}
+.headline{
+  display: flex;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 6em;
+  justify-content: center;
+  color: #4e4e4b;
+}
+#sub2{
+  display: flex;
+}
+.kunai{
+  display: flex;
+  margin-top: 145px;
+}
+.naruto{
+  display: flex;
+  width: 600px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px; 
+  margin-top: 90px;
+  margin-left: 300px;
+  font-size: 3em;
+  color: #4e4e4b;
+}
+.narutoinfo{
+  margin-left: 200px;
+}
+.narutoinfo2{
+  margin-left: 200px;
+}
+#db{
+  display: flex;
+}
+.dragon{
+  display: flex;
+  width: 600px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px; 
+  margin-top: 90px;
+  margin-left: 150px;
+  font-size: 3em;
+  color: #4e4e4b;
+}
+.dbinfo{
+  margin-left: 40px;
+}
+.dbinfo2{
+  margin-left: 25px;
+}
+#sub3{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+.ship{
+  margin-top: 145px;
+  margin-left: 25px;
+}
+.onepiece{
+  display: flex;
+  width: 800px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px; 
+  margin-top: 90px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  font-size: 3em;
+  color: #4e4e4b;
+}
+.oneinfo{
+  margin-left: 20px;
+}
+.oneinfo2{
+  margin-left: 20px;
+}
+#sub4{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+.naru img{
+  margin-top: 125px;
+  width: 100%; 
+}
+#narutoin{
+  display: flex;
+}
+#sub5{
+  display: flex;
+}
+.naru1{
+  margin-left: 40px;
+}
+.naru2{
+  margin-left: 60px;
+}
+.naru3{
+  margin-left: 60px;
+}
+#plot{
+  display: flex;
+  justify-content: center;
+}
+.plot1{
+  display: flex;
+  font-size: 2.5em;
+}
+#plotinfo{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.plotinfo1{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.naruimg{
+  border-radius: 50%;
+}
